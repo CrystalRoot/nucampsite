@@ -6,19 +6,23 @@
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -o css/ css/"
+    "test": "echo \"Error: no test specified\" && exit 1"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrystalRoot/nucampsite.git"
   },
   "author": "Crystal Root",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrystalRoot/nucampsite/issues"
+  },
+  "homepage": "https://github.com/CrystalRoot/nucampsite#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1",
-    "node-sass": "^6.0.1"
+    "lite-server": "^2.6.1"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
-    "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
